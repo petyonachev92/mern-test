@@ -1,12 +1,12 @@
-import React from 'react';
-import { Switch, Link, BrowserRouter, Route } from 'react-router-dom';
-import './App.css';
-import login from './login.js';
-import home from './home.js';
-import schedule from './schedule';
-import registration from './Registration.js';
+import React from 'react'
+import { Switch, Link, BrowserRouter, Route } from 'react-router-dom'
+import './App.css'
+import login from './Login.js'
+import home from './Home.js'
+import schedule from './Schedule'
+import registration from './Registration.js'
 
-function App() {
+function App () {
   return (
     <div>
       <div className="navigation">
@@ -24,7 +24,7 @@ function App() {
         </BrowserRouter>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

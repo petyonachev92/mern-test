@@ -1,13 +1,13 @@
-import React from 'react';
+import React from 'react'
 
-function schedule(){
-    return (
-        <div>
-            <p>
-                <strong>I have no idea!</strong>
-            </p>
-        </div>
-    )
+function Schedule () {
+  return (
+    <div>
+      <p>
+        <strong>I have no idea!</strong>
+      </p>
+    </div>
+  )
 }
 
-export default schedule;
+export default Schedule
